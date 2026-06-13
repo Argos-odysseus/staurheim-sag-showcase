@@ -2,6 +2,11 @@
 
 Static concept site for Staurheim Sag og Hovleri, built for GitHub Pages.
 
+## Deployment
+
+- Repo: https://github.com/Argos-odysseus/staurheim-sag-showcase
+- Live site: https://argos-odysseus.github.io/staurheim-sag-showcase/
+
 ## Current-site coverage
 
 - Existing pages represented: `Hjem`, `Tjenester`, `Kontakt`.
