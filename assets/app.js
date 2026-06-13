@@ -1,8 +1,8 @@
 const products = [
-  { name: "Konstruksjonsvirke", group: "baerende", size: "C24, grove dimensjoner", note: "Stendere, bjelkelag, sperrer og takverk. Kan planlegges opp til 9 meter." },
+  { name: "Konstruksjonsvirke", group: "bærende", size: "C24, grove dimensjoner", note: "Stendere, bjelkelag, sperrer og takverk. Kan planlegges opp til 9 meter." },
   { name: "Panel og kledning", group: "overflate", size: "Profiler etter avtale", note: "Innvendig panel, utvendig kledning og villmarkspanel." },
-  { name: "Laftetommer", group: "spesial", size: "Opp til 9 meter", note: "Til laft, takaser, restaurering og synlige konstruksjoner." },
-  { name: "Leieskjaering", group: "spesial", size: "Etter stokk og behov", note: "Skjaering og hovling for egne stokker eller spesialmal." },
+  { name: "Laftetømmer", group: "spesial", size: "Opp til 9 meter", note: "Til laft, takaser, restaurering og synlige konstruksjoner." },
+  { name: "Leieskjæring", group: "spesial", size: "Etter stokk og behov", note: "Skjæring og hovling for egne stokker eller spesialmål." },
   { name: "Sagflis", group: "biprodukt", size: "Levering i Telemark", note: "Rent biprodukt fra sagbruket, egnet til fjøs, stall og dekke." }
 ];
 
@@ -73,7 +73,7 @@ if (copyButton && resultBox) {
     await navigator.clipboard.writeText(text);
     copyButton.textContent = "Kopiert";
     window.setTimeout(() => {
-      copyButton.textContent = "Kopier foresporsel";
+      copyButton.textContent = "Kopier forespørsel";
     }, 1800);
   });
 }

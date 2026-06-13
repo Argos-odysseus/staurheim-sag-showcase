@@ -10,7 +10,7 @@ Static concept site for Staurheim Sag og Hovleri, built for GitHub Pages.
 ## Current-site coverage
 
 - Existing pages represented: `Hjem`, `Tjenester`, `Kontakt`.
-- Existing content represented: slogan, phone CTA, konstruksjonsvirke up to 9 m, panel/kledning/villmarkspanel, laft/laftetommer up to 9 m, leieskjaering, sagflis/biprodukter with delivery in Telemark, contact form fields.
+- Existing content represented: slogan, phone CTA, konstruksjonsvirke up to 9 m, panel/kledning/villmarkspanel, laft/laftetømmer up to 9 m, leieskjæring, sagflis/biprodukter with delivery in Telemark, contact form fields.
 - Static limitation: the original Brandcrowd contact form appears to submit via a hosted backend and reCAPTCHA. This static demo does not transmit form data; it creates a copyable request summary and preserves the phone CTA.
 - Social links: replaced generic Facebook/Instagram/X placeholders with a public Instagram profile link found in search results.
 
