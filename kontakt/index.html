@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt | Staurheim Sag og Hovleri</title>
+    <meta name="description" content="Kontakt Staurheim Sag og Hovleri om trelast, panel, laft, leieskjaering og sagflis.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Gå til innhold</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Hovedmeny">
+        <a class="brand" href="../index.html"><span class="brand-mark">SS</span><span>Staurheim Sag og Hovleri</span></a>
+        <div class="nav-links">
+          <a href="../index.html">Hjem</a>
+          <a href="../tjenester/">Tjenester</a>
+          <a href="./" aria-current="page">Kontakt</a>
+        </div>
+        <a class="nav-call" href="tel:+4799481621">994 81 621</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="section">
+        <div class="wrap contact-grid">
+          <div>
+            <p class="eyebrow">Kontakt</p>
+            <h1>Fortell hva du skal bygge.</h1>
+            <p class="lead">Ring for en hyggelig prat, eller bruk skjemaet til a lage et konkret sammendrag for foresporselen.</p>
+            <div class="contact-list">
+              <div class="contact-item"><span>Telefon</span><a href="tel:+4799481621">994 81 621</a></div>
+              <div class="contact-item"><span>Adresse</span><p>Dagstjonnvegen 181, 3803 Bo i Telemark</p></div>
+              <div class="contact-item"><span>Sosialt</span><a href="https://www.instagram.com/staurheimsag/">Instagram @staurheimsag</a></div>
+              <div class="contact-item"><span>Foretak</span><p>Staurheim Stokk og Sag, org.nr. 920 959 725</p></div>
+            </div>
+            <div class="map-placeholder" aria-label="Omradekart">
+              <span>Midt-Telemark</span>
+              <strong>Lokalt sagbruk med levering i Telemark etter avtale.</strong>
+            </div>
+          </div>
+          <form class="panel quote-form" data-quote-form>
+            <h2>Ta kontakt i dag</h2>
+            <p>Vi svarer sa fort vi kan.</p>
+            <div class="field"><label for="name">Navn</label><input id="name" name="name" autocomplete="name"></div>
+            <div class="field"><label for="phone">Telefon</label><input id="phone" name="phone" autocomplete="tel"></div>
+            <div class="field"><label for="project">Prosjekt</label><input id="project" name="project" placeholder="F.eks. hytte, garasje, fjøs, terrasse"></div>
+            <div class="field">
+              <label for="product">Hva trenger du?</label>
+              <select id="product" name="product">
+                <option>Konstruksjonsvirke</option>
+                <option>Panel/kledning</option>
+                <option>Villmarkspanel</option>
+                <option>Laftetommer</option>
+                <option>Leieskjaering</option>
+                <option>Sagflis</option>
+              </select>
+            </div>
+            <div class="field"><label for="dimensions">Dimensjoner og mengde</label><input id="dimensions" name="dimensions" placeholder="F.eks. 48x148, 5.4 m, 30 stk"></div>
+            <div class="field">
+              <label for="delivery">Henting eller levering</label>
+              <select id="delivery" name="delivery"><option>Avklares</option><option>Henter selv</option><option>Onsker levering i Telemark</option></select>
+            </div>
+            <div class="field"><label for="message">Melding</label><textarea id="message" name="message"></textarea></div>
+            <button class="button dark" type="submit">Lag sammendrag</button>
+            <div class="result-box" tabindex="-1" data-result>Fyll ut skjemaet for a lage et ryddig sammendrag du kan kopiere for samtale eller melding.</div>
+            <button class="button light" type="button" data-copy>Kopier foresporsel</button>
+            <a class="button primary" href="tel:+4799481621">Ring 994 81 621</a>
+            <p class="notice">Statisk demo: skjemaet sender ikke data. Produksjonsversjonen bor kobles til et ekte skjemamottak.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="footer-grid"><div><strong>Staurheim Sag og Hovleri</strong><p>Telefon <a href="tel:+4799481621">994 81 621</a>. Org.nr. 920 959 725.</p></div><div class="footer-links"><a href="../index.html">Hjem</a><a href="../tjenester/">Tjenester</a></div></div></footer>
+    <script src="../assets/app.js"></script>
+  </body>
+</html>
